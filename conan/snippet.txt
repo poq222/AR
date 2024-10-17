@@ -1,0 +1,16 @@
+<model-viewer src="conan.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.01803082979680012m 0.8835662082440953m 0.06236846111429486m" data-normal="-0.215689885414875m 0.448550962404614m 0.86734071013392m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">領結型變聲器</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.15547455015880723m 1.0551259820934331m 0.1354890330114159m" data-normal="0.03138707562135498m -0.22960896345022677m 0.9727767346042214m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">犯人追蹤眼鏡</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
